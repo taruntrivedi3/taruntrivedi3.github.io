@@ -74,5 +74,7 @@ workspace and is not needed by GitHub Pages.
 Every HTML page currently includes `<meta name="robots" content="noindex">` to
 discourage search indexing while the site is a draft. Remove it from each page
 when search visibility is wanted. This is a search-engine instruction, not
-access control. There are no analytics, remotely loaded fonts, or third-party
-scripts.
+access control. Fonts are self-hosted. Every HTML page includes the Cloudflare
+Web Analytics beacon for page views and visits; view reports in the Cloudflare
+dashboard. Its site token is a public identifier. The beacon does not add custom
+tracking for clicks on the Google Drive resume link.
