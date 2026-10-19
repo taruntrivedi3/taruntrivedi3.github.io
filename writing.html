@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex">
-    <title>Writing — Tarun Trivedi</title>
+    <title>Blog — Tarun Trivedi</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body id="top">
@@ -12,19 +12,27 @@
     <nav aria-label="Main navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="writing.html" aria-current="page">Writing</a></li>
+        <li><a href="writing.html" aria-current="page">Blog</a></li>
         <li><a href="readings.html">Readings</a></li>
         <li><a href="photography.html">Nature</a></li>
       </ul>
     </nav>
     <main id="main">
       <header class="introduction">
-        <h1 class="page-title">Writing</h1>
-        <p class="page-description">Notes &amp; longer pieces.</p>
+        <h1 class="page-title">Blog</h1>
       </header>
-      <div class="empty-page">
-        <p class="empty-state">Writing coming soon.</p>
-      </div>
+      <ul class="blog-list">
+        <li>
+          <a class="post-card" href="writing/llms-failure-modes/" aria-labelledby="llms-post-title">
+            <div class="post-card-copy">
+              <h2 id="llms-post-title">LLMs Failure Modes</h2>
+              <p>What happens when we ask an LLM to sample from a normal distribution?</p>
+              <span class="post-card-link">Read post <span aria-hidden="true">&rarr;</span></span>
+            </div>
+            <img class="post-card-image" src="writing/llms-failure-modes/math-post-assets/agent-normal-histogram.png" alt="" width="1620" height="900">
+          </a>
+        </li>
+      </ul>
     </main>
     <!-- Cloudflare Web Analytics -->
     <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "70282deafee34b30b616d829af0034f5"}'></script>

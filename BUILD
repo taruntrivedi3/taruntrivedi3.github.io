@@ -49,15 +49,36 @@ filegroup(
         "nature/patagonia-2026/index.html",
         "nature/starved-rock-2026/index.html",
         "photography.html",
+        "post.css",
         "projects.html",
         "readings.html",
         "styles.css",
         "writing.html",
-    ],
+    ] + glob([
+        "writing/**/*.html",
+        "writing/**/*.png",
+        "writing/**/*.css",
+        "writing/**/*.woff",
+        "writing/**/*.woff2",
+        "writing/**/*.ttf",
+        "writing/**/LICENSE",
+    ]),
 )
 
 filegroup(
     name = "preview",
     srcs = ["preview.py"],
+    data = [":site"],
+)
+
+filegroup(
+    name = "post_preview",
+    srcs = [
+        ".npmrc",
+        "package.json",
+        "package-lock.json",
+        "post.css",
+        "scripts/build-post.mjs",
+    ],
     data = [":site"],
 )

@@ -1,0 +1,16 @@
+{
+  "name": "tarun-personal-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:post": "node scripts/build-post.mjs",
+    "build:writing": "node scripts/build-post.mjs --publish --output writing/llms-failure-modes/index.html",
+    "preview:post": "node scripts/build-post.mjs --watch"
+  },
+  "dependencies": {
+    "highlight.js": "11.11.1",
+    "katex": "0.16.22",
+    "markdown-it": "14.1.0",
+    "markdown-it-texmath": "1.0.0"
+  }
+}

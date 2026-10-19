@@ -3,3 +3,5 @@ __pycache__/
 .cache/
 .local/
 .DS_Store
+node_modules/
+drafts/
