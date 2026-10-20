@@ -354,8 +354,7 @@ p {
   font-size: 1rem;
 }
 
-.album-meta,
-.photo-number {
+.album-meta {
   color: var(--muted);
   font-size: 0.85rem;
 }
@@ -385,11 +384,6 @@ p {
 .photo-grid figure {
   min-width: 0;
   margin: 0;
-}
-
-.photo-number {
-  margin-top: 0.35rem;
-  text-align: right;
 }
 
 .viewer-open {
@@ -447,13 +441,6 @@ p {
   width: 100%;
   height: min(70dvh, 48rem);
   object-fit: contain;
-}
-
-.viewer-caption {
-  margin: 0.6rem 0;
-  color: var(--muted);
-  font-size: 0.88rem;
-  text-align: center;
 }
 
 .viewer-counter {

@@ -3,7 +3,6 @@ const photos = Array.from(document.querySelectorAll("[data-photo]"));
 
 if (viewer && typeof viewer.showModal === "function" && photos.length) {
   const image = viewer.querySelector(".viewer-image");
-  const caption = viewer.querySelector(".viewer-caption");
   const counter = viewer.querySelector(".viewer-counter");
   let current = 0;
   let opener;
@@ -13,7 +12,6 @@ if (viewer && typeof viewer.showModal === "function" && photos.length) {
     const photo = photos[current];
     image.src = photo.href;
     image.alt = photo.querySelector("img").alt;
-    caption.textContent = image.alt;
     counter.textContent = `${current + 1} / ${photos.length}`;
   }
 
