@@ -43,6 +43,7 @@ filegroup(
         "assets/nature/starved-rock-2026/img_9173-thumb.webp",
         "assets/nature/starved-rock-2026/img_9173.webp",
         "assets/profile.webp",
+        "assets/resume.pdf",
         "gallery.js",
         "index.html",
         "nature/colorado-2026/index.html",
