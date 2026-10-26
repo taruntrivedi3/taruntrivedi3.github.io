@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>Beyond Pairs: Detecting Colluding Groups of Agents from Their Moves — Tarun Trivedi</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../post.css">
+    <link rel="stylesheet" href="katex/katex.min.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="../../writing.html" aria-current="page">Blog</a></li>
+        <li><a href="../../readings.html">Readings</a></li>
+        <li><a href="../../photography.html">Nature</a></li>
+      </ul>
+    </nav>
+    <main id="main"><article class="post"><h1>Beyond Pairs: Detecting Colluding Groups of Agents from Their Moves</h1>
+<p>As part of committing myself to more independent research, I took part in Apart Research's <a href="https://apartresearch.com/sprints/ai-collusion-research-sprint-2026-10-23-to-2026-10-25">AI Collusion Research Sprint</a>.</p>
+<p>With LLM agents now making their way into production systems, we set out to detect collusion in a multi-agent game using only the moves the agents make. For instance, in Rock Paper Scissors:</p>
+<p><img src="assets/reveal.png" alt="Eight players' Rock Paper Scissors moves over 30 rounds. P1, P4 and P6 play the same move in 30% of rounds, and each looks random on its own. GroupScan flags {P1, P4, P6}; the pairwise Bonjour detector flags nothing."></p>
+<p>Prior statistical methods only detect colluding pairs. Our approach extends them to detect a colluding subset of any size in a game of n agents.</p>
+<h2>The work</h2>
+<ul>
+<li><a href="https://pys8vc40ox3z7qxp.public.blob.vercel-storage.com/submissions/ai-collusion-research-sprint-2026-10-23-to-2026-10-25/report-11--WH3aFg6A5ySLUG33YWrxUWFinw9pV5.pdf">Full paper (PDF)</a></li>
+<li><a href="https://github.com/taruntrivedi3/collusion-detection">Code on GitHub</a></li>
+<li><a href="https://taruntrivedi3.github.io/collusion-detection/viewer/">Interactive visualization</a></li>
+<li><a href="https://apartresearch.com/sprints/projects/beyond-pairs-detecting-colluding-groups-of-agents-from-their-moves-4zhs">Submission page on Apart Research</a></li>
+</ul>
+</article></main>
+    <!-- Cloudflare Web Analytics -->
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "70282deafee34b30b616d829af0034f5"}'></script>
+    <!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
