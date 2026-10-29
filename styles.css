@@ -209,9 +209,6 @@ p {
 
 .post-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 13rem;
-  align-items: center;
-  gap: 2rem;
   padding: 1.5rem;
   border: 1px solid var(--rule);
   border-radius: 6px;
@@ -254,23 +251,11 @@ p {
   text-underline-offset: 0.22em;
 }
 
-.post-card-image {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: 1px solid var(--rule);
-  border-radius: 3px;
-}
-
 @media (max-width: 36rem) {
   .post-card {
     grid-template-columns: minmax(0, 1fr);
     gap: 1.3rem;
     padding: 1.25rem;
-  }
-
-  .post-card-image {
-    grid-row: 1;
   }
 }
 
